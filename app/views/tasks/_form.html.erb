@@ -3,8 +3,8 @@
 
     <%= f.input :content, label: false, required: true, autofocus: true, input_html: {class: "form-control"}, placeholder: "content" %>
 
-    <%= f.input :state, label: false, required: true, autofocus: true, input_html: {class: "form-control"},  placeholder: "possible states: to_do / doing / done" %>
-
+    <%= f.input :state, label: false, required: true, autofocus: true, disabled: false, input_html: {class: "form-control"},  placeholder: "possible states: to_do / doing / done" %>
+   
     <%= f.button :submit, class: "btn btn-lg btn-primary btn-block", label: false, required: true %>
 
 <% end %>
